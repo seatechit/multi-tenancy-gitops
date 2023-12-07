@@ -32,7 +32,7 @@ spec:
                 license: L-RJON-C7QG3S
               mqDashboard: true
               version: "2021.4.1"
-              replicas: 2
+              replicas: 1
               storage:
                 class: managed-nfs-storage
 
