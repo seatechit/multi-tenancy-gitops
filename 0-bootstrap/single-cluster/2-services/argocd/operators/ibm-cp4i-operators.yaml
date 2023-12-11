@@ -24,9 +24,9 @@ spec:
             cloudpakforintegration:
               name: ibm-cp-integration
               subscription:
-                channel: v1.3
+                channel: v7.0
                 installPlanApproval: Automatic
-                name: ibm-cp-integration
+                name: ibm-integration-platform-navigator
                 source: ibm-operator-catalog
                 sourceNamespace: openshift-marketplace
   syncPolicy:
