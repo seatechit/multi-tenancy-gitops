@@ -2,21 +2,21 @@ resources:
 # IBM Software
 
 ## Cloud Pak for Integration
-- argocd/operators/ibm-ace-operator.yaml
+# - argocd/operators/ibm-ace-operator.yaml
 #- argocd/operators/ibm-apic-operator.yaml
 #- argocd/instances/ibm-apic-instance.yaml
 #- argocd/instances/ibm-apic-management-portal-instance.yaml
 #- argocd/instances/ibm-apic-gateway-analytics-instance.yaml
 #- argocd/operators/ibm-aspera-operator.yaml
 #- argocd/operators/ibm-assetrepository-operator.yaml
-- argocd/operators/ibm-cp4i-operators.yaml
+# - argocd/operators/ibm-cp4i-operators.yaml
 #- argocd/operators/ibm-datapower-operator.yaml
 #- argocd/operators/ibm-eventstreams-operator.yaml
 #- argocd/instances/ibm-eventstreams-instance.yaml
 #- argocd/operators/ibm-mq-operator.yaml
 #- argocd/operators/ibm-opsdashboard-operator.yaml
-- argocd/operators/ibm-platform-navigator.yaml
-- argocd/instances/ibm-platform-navigator-instance.yaml
+# - argocd/operators/ibm-platform-navigator.yaml
+# - argocd/instances/ibm-platform-navigator-instance.yaml
 
 ## Cloud Pak for Business Automation
 #- argocd/operators/ibm-cp4a-operator.yaml
@@ -64,7 +64,7 @@ resources:
 ## IBM Foundational Services / Common Services
 - argocd/operators/ibm-foundations.yaml
 - argocd/instances/ibm-foundational-services-instance.yaml
-- argocd/operators/ibm-automation-foundation-core-operator.yaml
+# - argocd/operators/ibm-automation-foundation-core-operator.yaml
 #- argocd/operators/ibm-automation-foundation-operator.yaml
 #- argocd/operators/ibm-license-service-operator.yaml
 #- argocd/instances/ibm-license-service-instance.yaml
@@ -123,7 +123,7 @@ resources:
 #- argocd/instances/sonarqube.yaml
 #- argocd/instances/pact-broker.yaml
 # In OCP 4.7+ we need to install openshift-pipelines and possibly privileged scc to the pipeline serviceaccount
-- argocd/operators/openshift-pipelines.yaml
+# - argocd/operators/openshift-pipelines.yaml
 
 # Serverless
 #- argocd/operators/openshift-serverless.yaml
