@@ -204,6 +204,7 @@ rules:
     apiGroups:
       - appconnect.ibm.com
     resources:
+      - integrationruntimes
       - integrationservers
       - dashboards
       - configurations
