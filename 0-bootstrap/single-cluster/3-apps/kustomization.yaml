@@ -41,4 +41,4 @@ patches:
       value: https://github.com/seatechit/multi-tenancy-gitops-apps.git
     - op: add
       path: /spec/source/targetRevision
-      value: seatech-cp4i
+      value: seatech-cp4i-dr

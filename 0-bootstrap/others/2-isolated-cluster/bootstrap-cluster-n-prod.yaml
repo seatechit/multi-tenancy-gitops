@@ -11,7 +11,7 @@ spec:
   source:
     path: 0-bootstrap/others/2-isolated-cluster/cluster-n-prod
     repoURL: https://github.com/seatechit/multi-tenancy-gitops.git
-    targetRevision: seatech-cp4i
+    targetRevision: seatech-cp4i-dr
   syncPolicy:
     automated:
       prune: true

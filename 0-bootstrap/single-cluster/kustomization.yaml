@@ -13,7 +13,7 @@ patches:
       value: https://github.com/seatechit/multi-tenancy-gitops.git
     - op: add
       path: /spec/source/targetRevision
-      value: seatech-cp4i
+      value: seatech-cp4i-dr
 - target:
     group: argoproj.io
     kind: AppProject
